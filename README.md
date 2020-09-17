@@ -2,19 +2,19 @@
 
 ## My Components
 
-- Participants column
+- **Participants column**
   - My profil
     - My avatar
     - My name
-  - List of other' participants
+  - List of other participants
     - Participants' avatar
     - Participants' name
     - Time sended message
-- Conversation column
+- **Conversation column**
   - Messages
     - Received messages 
     - Sended messages 
-  - Input
+  - **Input**
     - Empty text zone
     - Enter button
 
