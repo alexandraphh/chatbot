@@ -1,0 +1,151 @@
+@charset "utf-8";
+@import "reset.css";
+h1 {
+  text-align: left;
+  font-size: 30px;
+  font-style: bolder;
+  margin: 25px;
+  color: white;
+}
+/*Général*/
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #212121;
+  height: 100%;
+}
+.column {
+  display: flex;
+}
+.colParticipants {
+  width: 25%;
+  background-color: #8BB2FD;
+  font-size: 20px;
+}
+.colDiscussion {
+  width: 75%;
+  background-color: #D7EAFB;
+  text-align: center;
+  font-size: 20px;
+}
+/*Colonne 1*/
+.avatar {
+  width: 90%;
+  margin: 20px auto 20px auto;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+}
+.avatar img {
+  width: 70%;
+  margin-top: 8%;
+}
+h2 {
+  margin: 10px;
+  font-style: bolder;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.myName {
+  margin: 20px;
+}
+.otherParticipants {
+  width: 85%;
+  background-color: #D7EAFB;
+  margin: 0 auto;
+  padding-left: 5%;
+}
+.otherParticipants img {
+  width: 70%;
+}
+.otherParticipants li {
+  padding-top: 3%;
+  vertical-align: middle;
+}
+.aParticipant {
+  display: flex;
+}
+.participantName {
+  margin: auto;
+  width: 75%;
+}
+.counter {
+  width: 20%;
+  padding-top: 3%;
+  padding-right: 5%;
+  font-size: 12px;
+  margin: auto;
+}
+.participantsImg {
+  width: 20%;
+}
+/*Colonne 2*/
+h3 {
+  margin: 10px;
+  font-style: bolder;
+  font-family: 'Roboto', sans-serif;
+}
+
+.messages{
+  align-items: flex-end;
+}
+
+.conversationsBubbles {
+  width: 92%;
+  margin: 0 auto;
+  background-color: #8BB2FD;
+  padding: 1%;
+  font-size: 15px;
+  overflow: auto;
+  max-height: 100%;
+}
+.receivedMessage, .myMessage {
+  border: 1px solid black;
+  width: 70%;
+  padding: 10px;
+  margin: 2%;
+  display: flex;
+}
+.receivedMessage {
+  background-color: #D7EAFB;
+  border-radius: 15px 15px 15px 0px;
+}
+.messageSender, .messageRecipient {
+  width: 20%;
+}
+.messageSender img, .messageRecipient img{
+  width: 30%;
+  padding-bottom: 1%;
+}
+.bodyMessage {
+  text-align: center;
+  margin: auto;
+}
+.myMessage {
+  background-color: #8BB2FD;
+  border-radius: 15px 15px 0px 15px;
+  float: right;
+}
+.hourMessage {
+  font-size: 12px;
+  padding-top: 1%;
+}
+/*ZONE ECRIRE MESSAGE*/
+.writeMessages {
+  background-color: #212121;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.enterYourMessage {
+  width: 90%;
+  height: 50px;
+  border-radius: 15px;
+}
+.sendButton {
+  border-radius: 50%;
+  background-color: #C32937;
+  border: solid 3px #FFB928;
+  color: white;
+}
