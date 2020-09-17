@@ -3,15 +3,15 @@
 ## My Components
 
 - **Participants column**
-  - My profil
+  - **My profil**
     - My avatar
     - My name
-  - List of other participants
+  - **List of other participants**
     - Participants' avatar
     - Participants' name
     - Time sended message
 - **Conversation column**
-  - Messages
+  - **Messages**
     - Received messages 
     - Sended messages 
   - **Input**
